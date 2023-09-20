@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class soma_numeros_impares {
+public class soma_numeros_pares {
 
 	public static void main(String[] args) {
 		int somatorio = 0;
