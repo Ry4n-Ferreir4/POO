@@ -1,0 +1,54 @@
+
+
+1.     Classe com Atributos e Métodos:    
+   Crie uma classe `Pessoa` com atributos como nome, idade e métodos para exibir informações da pessoa.
+
+2.     Métodos Estáticos:    
+   Crie uma classe `OperacoesMatematicas` com métodos estáticos para realizar operações matemáticas, como soma, subtração, multiplicação e divisão.
+
+3.     Construtor:    
+   Crie uma classe `Carro` com um construtor que inicializa a marca, modelo e ano do carro.
+
+4.     Relacionamento entre Classes:    
+   Crie uma classe `Biblioteca` que contém uma lista de livros representados por outra classe `Livro`. Implemente métodos para adicionar, remover e listar os livros na biblioteca.
+
+5.     Modificadores de Acesso (Visibilidade):    
+   Crie uma classe com membros privados e forneça métodos públicos para acessar e modificar esses membros.
+
+6.     Import:    
+   Crie uma classe em um pacote e importe-a em outra classe.
+
+7.     Encapsulamento - Getters e Setters:    
+   Crie uma classe `Aluno` com atributos privados, como nome e idade, e forneça métodos getters e setters para acessá-los.
+
+8.     Sobrecarga de Métodos:    
+   Crie uma classe `Calculadora` com métodos sobrecarregados para realizar operações matemáticas com diferentes tipos de argumentos (int, double, etc.).
+
+9.     Herança:    
+   Crie uma classe `Forma` e, em seguida, crie classes derivadas, como `Circulo` e `Retangulo`, que herdam da classe `Forma`.
+
+*10.     Polimorfismo:    
+    Crie um método em `Forma` que pode ser sobrescrito nas classes derivadas para calcular a área da forma.
+
+*11.     Classe Abstrata:    
+    Transforme a classe `Forma` em uma classe abstrata e forneça métodos abstratos para calcular a área e o perímetro.
+
+*12.     Interfaces:    
+    Crie uma interface `Desenhavel` e faça com que as classes `Circulo` e `Retangulo` a implementem.
+
+13.     Composição:    
+    Crie uma classe `Endereco` com atributos como rua, cidade e estado, e use-a como parte de outra classe, como `Pessoa`.
+
+14.     Enumerações:    
+    Crie uma enumeração `DiasDaSemana` com os dias da semana e use-a em um programa que mostra o dia atual.
+
+*15.     Recursão:    
+    Escreva um programa recursivo para calcular o fatorial de um número.
+
+*16.     Coleções:    
+    Crie uma lista de objetos `Produto` com atributos como nome e preço, e implemente métodos para adicionar, remover e listar os produtos.
+
+17. 	Suponha que você tenha uma classe chamada Pessoa com um construtor que aceita dois parâmetros: nome e idade. Você deseja criar uma subclasse chamada Aluno que herda de Pessoa. No construtor da classe Aluno, como você usaria super() para chamar o construtor da classe pai Pessoa e inicializar os atributos herdados?
+
+18.	O que acontece se você não usar a palavra-chave super() no construtor de uma classe filha? A classe pai ainda é inicializada?
+
