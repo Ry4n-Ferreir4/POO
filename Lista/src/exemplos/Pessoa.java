@@ -21,7 +21,6 @@ public class Pessoa {
         // Criando uma instância de Pessoa
         Pessoa pessoa1 = new Pessoa("João", 30);
 
-        // Chamando o método para exibir informações da pessoa
         pessoa1.exibirInformacoes();
     }
 }
