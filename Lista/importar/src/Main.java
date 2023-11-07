@@ -1,0 +1,8 @@
+import importar.Exibir;
+
+public class Main { 
+	public static void main(String[] args) {
+       Exibir exibir = new Exibir();
+       exibir.saudacao();
+    }
+}

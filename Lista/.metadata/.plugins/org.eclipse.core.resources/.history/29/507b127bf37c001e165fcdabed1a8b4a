@@ -1,0 +1,7 @@
+package importar;
+
+public class Exibir {
+	public void saudacao() {
+        System.out.println("Exibindo Codigo >>>HELLO!<<<<");
+    }
+}
