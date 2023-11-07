@@ -1,0 +1,10 @@
+package hera;
+
+public class Forma {
+	//Classes derivadas poderam usar
+    protected double area;
+
+    public double getArea() {
+        return area;
+    }
+}

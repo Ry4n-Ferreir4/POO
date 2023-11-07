@@ -16,7 +16,7 @@ public class OperacoesMatematicas {
 
     public static double dividir(int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("Divisão por zero não é permitida.");
+            System.out.println("Divisão por zero não é permitida.");
         }
         return (double) a / b;
     }

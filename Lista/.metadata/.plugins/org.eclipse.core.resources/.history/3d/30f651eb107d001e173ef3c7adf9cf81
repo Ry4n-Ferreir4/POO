@@ -1,0 +1,16 @@
+package exemplos;
+
+public class DiaSemana {
+    // Enumeração 'DiasDaSemana' com os dias da semana
+    public enum DiaSemana {
+        SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO
+    }
+
+    public static void main(String[] args) {
+        // Obtenha o dia atual (você pode obter o dia atual de acordo com a sua lógica)
+        DiaSemana diaAtual = DiaSemana.SEGUNDA;  // Supondo que hoje seja segunda-feira
+
+        // Exiba o dia atual
+        System.out.println("Hoje é: " + diaAtual);
+    }
+}
