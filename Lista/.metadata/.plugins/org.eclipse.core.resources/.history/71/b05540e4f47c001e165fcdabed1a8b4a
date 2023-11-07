@@ -1,0 +1,9 @@
+import importar.Exibir;
+
+public class Main {
+
+	 public static void main(String[] args) {
+	        MinhaClasse minhaInstancia = new MinhaClasse();
+	        minhaInstancia.saudacao();
+	    }
+}
