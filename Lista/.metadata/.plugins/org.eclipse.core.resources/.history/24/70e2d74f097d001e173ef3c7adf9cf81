@@ -1,0 +1,63 @@
+package exemplos;
+
+public class Calc {
+    // Soma para inteiros
+    public int somar(int a, int b) {
+        return a + b;
+    }
+
+    // Soma para números de ponto flutuante (double)
+    public double somar(double a, double b) {
+        return a + b;
+    }
+
+    // Subtração para inteiros
+    public int subtrair(int a, int b) {
+        return a - b;
+    }
+
+    // Subtração para números de ponto flutuante (double)
+    public double subtrair(double a, double b) {
+        return a - b;
+    }
+
+    // Multiplicação para inteiros
+    public int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+    // Multiplicação para números de ponto flutuante (double)
+    public double multiplicar(double a, double b) {
+        return a * b;
+    }
+
+    // Divisão para inteiros
+    public int dividir(int a, int b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("Erro: Divisão por zero.");
+            return 0;
+        }
+    }
+
+    // Divisão para números de ponto flutuante (double)
+    public double dividir(double a, double b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("Erro: Divisão por zero.");
+            return 0.0;
+        }
+    }
+
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+
+        int somaInt = calculadora.somar(5, 3);
+        double somaDouble = calculadora.somar(5.5, 3.2);
+
+        System.out.println("Soma de inteiros: " + somaInt);
+        System.out.println("Soma de double: " + somaDouble);
+    }
+}

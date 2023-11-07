@@ -1,0 +1,5 @@
+Se você não usar a palavra-chave super() no construtor de uma classe filha (subclasse), a classe pai (superclasse) não será inicializada automaticamente no construtor da classe filha. Isso significa que os construtores da superclasse não serão chamados implicitamente.
+
+Quando você não chama explicitamente super() no construtor da subclasse, o Java tentará automaticamente chamar o construtor padrão (sem argumentos) da superclasse. Se a superclasse não tiver um construtor padrão definido explicitamente, o Java fornecerá um construtor padrão vazio. Se a superclasse não tiver um construtor padrão válido (ou seja, um construtor sem argumentos), isso resultará em um erro de compilação.
+
+Portanto, se a superclasse tiver um construtor parametrizado (com argumentos) como o exemplo que forneci anteriormente, é importante chamar explicitamente super() no construtor da subclasse para garantir que os atributos e comportamentos da superclasse sejam inicializados corretamente.
